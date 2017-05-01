@@ -244,7 +244,7 @@ I'm just a porter, most of them are borrowing from others
     Generally, the tricky part of the question is not to use any sorting or ordering function. In that 
     case you will have to write your own logic to answer the question and impress your interviewer.
     
-    Python code-
+    ***Python code-***
     def return_union(list_a, list_b):
         len1 = len(list_a)
         len2 = len(list_b)
@@ -314,30 +314,46 @@ I'm just a porter, most of them are borrowing from others
 
     }
 #### Q35 What is the difference between Bayesian Inference and Maximum Likelihood Estimation (MLE)?
+
 #### Q36 What is Regularization and what kind of problems does regularization solve?
+
 #### Q37 What is multicollinearity and how you can overcome it?
+
 #### Q38 What is the curse of dimensionality?
+
 #### Q39 How do you decide whether your linear regression model fits the data?
+
 #### Q40 What is the difference between squared error and absolute error?
+
 #### Q41 What is Machine Learning?
+
     The simplest way to answer this question is – we give the data and equation to the machine. Ask the
     machine to look at the data and identify the coefficient values in an equation.
 
     For example for the linear regression y=mx+c, we give the data for the variable x, y and the machine
     learns about the values of m and c from the data.
+    
 #### Q42 How are confidence intervals constructed and how will you interpret them?
+
 #### Q43 How will you explain logistic regression to an economist, physican scientist and biologist?
+
 #### Q44 How can you overcome Overfitting?
+
 #### Q45 Differentiate between wide and tall data formats?
+
 #### Q46 Is Naïve Bayes bad? If yes, under what aspects.
+
 #### Q47 How would you develop a model to identify plagiarism?
+
 #### Q48 How will you define the number of clusters in a clustering algorithm?
+
     Though the Clustering Algorithm is not specified, this question will mostly be asked in reference to
     K-Means clustering where “K” defines the number of clusters. The objective of clustering is to group 
     similar entities in a way that the entities within a group are similar to each other but the groups 
     are different from each other.
 
     For example, the following image shows three different groups.
+    
 ![](https://s3.amazonaws.com/files.dezyre.com/images/blog/100+Data+Science+Interview+Questions+and+Answers+(General)/Data+Science+Interview+Questions+K-Means+Clustering.jpg)
 
     K-Mean Clustering Machine Learning Algorithm
@@ -345,6 +361,7 @@ I'm just a porter, most of them are borrowing from others
     Within Sum of squares is generally used to explain the homogeneity within a cluster. If you plot WSS 
     for a range of number of clusters, you will get the plot shown below. The Graph is generally known as 
     Elbow Curve.
+    
 ![](https://s3.amazonaws.com/files.dezyre.com/images/blog/100+Data+Science+Interview+Questions+and+Answers+(General)/Data+Science+Interview+Questions+K-Means.png)
 
     Red circled point in above graph i.e. Number of Cluster =6 is the point after which you don’t see any 
@@ -353,10 +370,15 @@ I'm just a porter, most of them are borrowing from others
     This is the widely used approach but few data scientists also use Hierarchical clustering first to 
     create dendograms and identify the distinct groups from there.
 #### Q49 Is it better to have too many false negatives or too many false positives?
+
 #### Q50 Is it possible to perform logistic regression with Microsoft Excel?
+
 #### Q51 What do you understand by Fuzzy merging ? Which language will you use to handle it?
+
 #### Q51 What is the difference between skewed and uniform distribution?
+
 #### G52 You created a predictive model of a quantitative outcome variable using multiple regressions. What are the steps you would follow to validate the model?
+
     Since the question asked, is about post model building exercise, we will assume that you have 
     already tested for null hypothesis, multi collinearity and Standard error of coefficients.
     
@@ -369,10 +391,15 @@ I'm just a porter, most of them are borrowing from others
 In addition to above mentioned quantitative metrics you should also check for-
 - Residual plot
 - Assumptions of linear regression 
+
 #### Q54 What do you understand by Hypothesis in the content of Machine Learning?
+
 #### Q55 What do you understand by Recall and Precision?
+
 #### Q56 How will you find the right K for K-means?
+
 #### Q57 Why L1 regularizations causes parameter sparsity whereas L2 regularization does not?
+
     Regularizations in statistics or in the field of machine learning is used to include some extra 
     information in order to solve a problem in a better way. L1 & L2 regularizations are generally used 
     to add constraints to optimization problems.
@@ -384,10 +411,15 @@ In addition to above mentioned quantitative metrics you should also check for-
     to L2 which results into sparsity.
     In other words, errors are squared in L2, so model sees higher error and tries to minimize that squared 
     error.
+    
 #### Q58 How can you deal with different types of seasonality in time series modelling?
+
 #### Q59 In experimental design, is it necessary to do randomization? If yes, why?
+
 #### Q60 What do you understand by conjugate-prior with respect to Naïve Bayes?
+
 #### Q61 Can you cite some examples where a false positive is important than a false negative?
+
     Before we start, let us understand what are false positives and what are false negatives.
     False Positives are the cases where you wrongly classified a non-event as an event a.k.a Type I error.
     And, False Negatives are the cases where you wrongly classify events as non-events, a.k.a Type II error.
@@ -405,7 +437,9 @@ In addition to above mentioned quantitative metrics you should also check for-
     least 20% profit on sold items above 5K.
 
     Now what if they have sent it to false positive cases? 
+    
 #### Q62 Can you cite some examples where a false negative important than a false positive?
+
     Assume there is an airport ‘A’ which has received high security threats and based on certain 
     characteristics they identify whether a particular passenger can be a threat or not. Due to shortage 
     of staff they decided to scan passenger being predicted as risk positives by their predictive model.
@@ -415,32 +449,46 @@ In addition to above mentioned quantitative metrics you should also check for-
     
     What if you rejected to marry a very good person based on your predictive model and you happen to
     meet him/her after few years and realize that you had a false negative?
+    
 #### Q63 Can you cite some examples where both false positive and false negatives are equally important?
+
     In the banking industry giving loans is the primary source of making money but at the same time if 
     your repayment rate is not good you will not make any profit, rather you will risk huge losses.
+    
     Banks don’t want to lose good customers and at the same point of time they don’t want to acquire 
     bad customers. In this scenario both the false positives and false negatives become very important 
     to measure.
+
 #### Q64 Can you explain the difference between a Test Set and a Validation Set?
+
     Validation set can be considered as a part of the training set as it is used for parameter selection
     and to avoid Overfitting of the model being built. On the other hand, test set is used for testing 
     or evaluating the performance of a trained machine leaning model.
 
     In simple terms ,the differences can be summarized as-
     
-    Training Set is to fit the parameters i.e. weights.
-    Test Set is to assess the performance of the model i.e. evaluating the predictive power and generalization.
-    Validation set is to tune the parameters.
+-   Training Set is to fit the parameters i.e. weights.
+-   Test Set is to assess the performance of the model i.e. evaluating the predictive power and generalization.
+-   Validation set is to tune the parameters.
+
 #### Q65 What makes a dataset gold standard?
+
 #### Q66 What do you understand by statistical power of sensitivity and how do you calculate it?
+
     Sensitivity is commonly used to validate the accuracy of a classifier (Logistic, SVM, RF etc.). 
     Sensitivity is nothing but “Predicted TRUE events/ Total events”. True events here are the events
     which were true and model also predicted them as true.
+    
     Calculation of seasonality is pretty straight forward-
-    Seasonality = True Positives /Positives in Actual Dependent Variable
+    
+    ***Seasonality = True Positives /Positives in Actual Dependent Variable***
+    
     Where, True positives are Positive events which are correctly classified as Positives.
+    
 #### Q67 What is the importance of having a selection bias?
+
 #### Q68 Give some situations where you will use an SVM over a RandomForest Machine Learning algorithm and vice-versa.
+
     SVM and Random Forest are both used in classification problems.
     
     a)      If you are sure that your data is outlier free and clean then go for SVM. It is the 
@@ -453,12 +501,16 @@ In addition to above mentioned quantitative metrics you should also check for-
     e)     SVM is preferred in multi-dimensional problem set - like text classification
     but as a good data scientist, you should experiment with both of them and test for accuracy or rather 
     you can use ensemble of many Machine Learning techniques.
+
 #### Q69 What do you understand by feature vectors?
+
 #### Q70 How do data management procedures like missing data handling make selection bias worse?
+
     Missing value treatment is one of the primary tasks which a data scientist is supposed to do
     before starting data analysis. There are multiple methods for missing value treatment. If not
     done properly, it could potentially result into selection bias. Let see few missing value treatment
     examples and their impact on selection-
+   
     Complete Case Treatment: Complete case treatment is when you remove entire row in data even if one 
     value is missing. You could achieve a selection bias if your values are not missing at random and 
     they have some pattern. Assume you are conducting a survey and few people didn’t specify their gender.
@@ -475,22 +527,34 @@ In addition to above mentioned quantitative metrics you should also check for-
     Hence, various data management procedures might include selection bias in your data if not chosen correctly.
 
 #### Q71 What are the advantages and disadvantages of using regularization methods like Ridge Regression?
+
 #### Q72 What do you understand by long and wide data formats?
+
 #### Q73 What do you understand by outliers and inliers? What would you do if you find them in your dataset?
+
 #### Q74 Write a program in Python which takes input as the diameter of a coin and weight of the coin and produces output as the money value of the coin.
+
 #### Q75 What are the basic assumptions to be made for linear regression?
+
     Normality of error distribution, statistical independence of errors, linearity and additivity.
+
 #### Q76 Can you write the formula to calculat R-square?
+
     R-Square can be calculated using the below formular -
     1 - (Residual Sum of Squares/ Total Sum of Squares)
+
 #### Q77 What is the advantage of performing dimensionality reduction before fitting an SVM?
+
     Support Vector Machine Learning Algorithm performs better in the reduced space. It is beneficial to 
     perform dimensionality reduction before fitting an SVM if the number of features is large when 
     compared to the number of observations.
+
 #### Q78 How will you assess the statistical significance of an insight whether it is a real insight or just by chance?
+
     Statistical importance of an insight can be accessed using Hypothesis Testing.
 
 ## Machine Learning Interview Questions: Algorithms/Theory
+
 #### Q79 What’s the trade-off between bias and variance?
     
     Bias is error due to erroneous or overly simplistic assumptions in the learning algorithm 
@@ -534,6 +598,8 @@ In addition to above mentioned quantitative metrics you should also check for-
     false positive rate at various thresholds. It’s often used as a proxy for the trade-off between
     the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger 
     a false alarm (false positives).
+    
+![](https://lh3.googleusercontent.com/zUWYO4VwGpoyu9oygT12F3hgZ30GxVY7sg_ZF46INrNbDutd9mVz9GnYIYGw2r1ZcbPLQXF4HV-uNXvQcVrP7Sg2BDDqRkaY3RAApumdXgH2mQZ8OCSgqqsVl7UDVjqwVFq224Z_)
     
 #### Q83 Define precision and recall.
     
@@ -580,6 +646,8 @@ In addition to above mentioned quantitative metrics you should also check for-
     L2 regularization tends to spread error among all the terms, while L1 is more binary/sparse, with
     many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean
     prior on the terms, while L2 corresponds to a Gaussian prior.
+    
+![](https://lh6.googleusercontent.com/vXUSHKE11Qpolek11IPPP6Fs-iU1-LeWtf5EXVdrfOl97ytug_cME-vLF1t4BNvoAppxfRhx4dNzHoKkdl8dfGVix4jc2hhvrtDG_wyuByxpVfeFZQdMH-INzG6RSi_9jkJLERto)
 
 #### Q87 What’s your favorite algorithm, and can you explain it to me in less than a minute?
 
@@ -610,6 +678,8 @@ In addition to above mentioned quantitative metrics you should also check for-
     audio signals or other time series such as sensor data.
 
 #### Q90 What’s the difference between probability and likelihood?
+
+![](https://lh3.googleusercontent.com/Yz2xAzLEEjtk62o9zatSDZJ7yBwgw-a1GtSNfAjJ3tq3OY5UbnxYUpNOqAuuKAUj8kVZaraIsr87kX83ejzg2y8DW9goGJbZuPc1Be_2VmGEEsNZ5JMioUw6Xke-KvYzp-sVrLCL)
 
 #### Q91 What is deep learning, and how does it contrast with other machine learning algorithms?
 
@@ -786,8 +856,11 @@ questions that test your logic and programming skills: this section focuses more
     What’s important here is to define your views on how to properly visualize data and your personal 
     preferences when it comes to tools. Popular tools include R’s ggplot, Python’s seaborn and matplotlib,
     and tools such as Plot.ly and Tableau.
+    
+![](https://lh3.googleusercontent.com/79d5jkZBgpZPQa61A4e9opgfX2-mrxWxfQyswec3YxBouNEvAu8wYxjCXNQl-nRdBVQeuco1h-LZbxVblgS9h6bYLi6peoqSd2N7VW7BSeBgpmclKng6IRYEf9QkTMRJKMyPxrCT)
 
 ## Machine Learning Interview Questions: Company/Industry Specific
+
 These machine learning interview questions deal with how to implement your general machine learning knowledge 
 to a specific company’s requirements. You’ll be asked to create case studies and extend your knowledge of the
 company and industry you’re applying for with your machine learning skills.
@@ -818,6 +891,7 @@ company and industry you’re applying for with your machine learning skills.
     accordingly.
 
 ## Machine Learning Interview Questions: General Machine Learning Interest
+
 This series of machine learning interview questions attempts to gauge your passion and interest in machine learning.
 The right answers will serve as a testament for your commitment to being a lifelong learner in machine learning.
 
