@@ -36,27 +36,27 @@ I'm just a porter, most of them are borrowing from others
     take up to 80% of the time for just cleaning data making it a critical part of analysis task.
 #### Q7 Differentiate between univariate, bivariate and multivariate analysis.
     These are descriptive statistical analysis techniques which can be differentiated based on the number of 
-    variables involved at a given point of time. For example, the pie charts of sales based on territory involve only 
-    one variable and can be referred to as univariate analysis.
+    variables involved at a given point of time. For example, the pie charts of sales based on territory involve 
+    only one variable and can be referred to as univariate analysis.
 
-    If the analysis attempts to understand the difference between 2 variables at time as in a scatterplot, then it is 
-    referred to as bivariate analysis. For example, analysing the volume of sale and a spending can be considered as an 
-    example of bivariate analysis.
+    If the analysis attempts to understand the difference between 2 variables at time as in a scatterplot, then it 
+    is referred to as bivariate analysis. For example, analysing the volume of sale and a spending can be considered 
+    as an example of bivariate analysis.
 
-    Analysis that deals with the study of more than two variables to understand the effect of variables on the responses 
-    is referred to as multivariate analysis.
+    Analysis that deals with the study of more than two variables to understand the effect of variables on the 
+    responses is referred to as multivariate analysis.
 
 #### Q8 What do you understand by the term Normal Distribution?
-    Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. 
-    However, there are chances that data is distributed around a central value without any bias to the left or right and 
-    reaches normal distribution in the form of a bell shaped curve. The random variables are distributed in the form of 
-    an symmetrical bell shaped curve.
+    Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled
+    up. However, there are chances that data is distributed around a central value without any bias to the left or
+    right and reaches normal distribution in the form of a bell shaped curve. The random variables are distributed
+    in the form of an symmetrical bell shaped curve.
 #### Q9 What is Linear Regression?
-    Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second 
-    variable X. X is referred to as the predictor variable and Y as the criterion variable.
+    Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a 
+    second variable X. X is referred to as the predictor variable and Y as the criterion variable.
 #### Q10 What is Interpolation and Extrapolation?
-    Estimating a value from 2 known values from a list of values is Interpolation. Extrapolation is approximating a value 
-    by extending a known set of values or facts.
+    Estimating a value from 2 known values from a list of values is Interpolation. Extrapolation is approximating 
+    a value by extending a known set of values or facts.
 #### Q11 What is power analysis?
     An experimental design technique for determining the effect of a given sample size.
 #### Q12 What is K-means? How can you select K for K-means?
@@ -64,35 +64,31 @@ I'm just a porter, most of them are borrowing from others
     The process of filtering used by most of the recommender systems to find patterns or information by collaborating 
     viewpoints, various data sources and multiple agents.
 #### Q14 What is the difference between Cluster and Systematic Sampling?
-    Cluster sampling is a technique used when it becomes difficult to study the target population spread across a wide 
-    area and simple random sampling cannot be applied. Cluster Sample is a probability sample where each sampling unit 
-    is a collection, or cluster of elements. Systematic sampling is a statistical technique where elements are selected 
-    from an ordered sampling frame. In systematic sampling, the list is progressed in a circular manner so once you reach 
-    the end of the list,it is progressed from the top again. The best example for systematic sampling is equal probability 
-    method.
+    Cluster sampling is a technique used when it becomes difficult to study the target population spread across
+    a wide area and simple random sampling cannot be applied. Cluster Sample is a probability sample where each 
+    sampling unit is a collection, or cluster of elements. Systematic sampling is a statistical technique where 
+    elements are selected from an ordered sampling frame. In systematic sampling, the list is progressed in a 
+    circular manner so once you reach the end of the list,it is progressed from the top again. The best example
+    for systematic sampling is equal probability method.
 #### Q15 Are expected value and mean value different?
-    They are not different but the terms are used in different contexts. Mean is generally referred when talking about a 
-    probability distribution or sample population whereas expected value is generally referred in a random variable context.
+    They are not different but the terms are used in different contexts. Mean is generally referred when talking 
+    about a probability distribution or sample population whereas expected value is generally referred in a 
+    random variable context.
 
-For Sampling Data
+    For Sampling Data
+    Mean value is the only value that comes from the sampling data.
+    Expected Value is the mean of all the means i.e. the value that is built from multiple samples. Expected 
+    value is the population mean.
 
-Mean value is the only value that comes from the sampling data.
-
-Expected Value is the mean of all the means i.e. the value that is built from multiple samples. Expected value is the population mean.
-
-For Distributions
-
-Mean value and Expected value are same irrespective of the distribution, under the condition that the distribution is in the same population.
-
-16)       What does P-value signify about the statistical data?
-
-P-value is used to determine the significance of results after a hypothesis test in statistics. P-value helps the readers to draw conclusions and is always between 0 and 1.
-
-•           P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
-
-•           P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
-
-•           P-value=0.05is the marginal value indicating it is possible to go either way.
+    For Distributions
+    Mean value and Expected value are same irrespective of the distribution, under the condition that the 
+    distribution is in the same population.
+#### Q16 What does P-value signify about the statistical data?
+    P-value is used to determine the significance of results after a hypothesis test in statistics. P-value 
+    helps the readers to draw conclusions and is always between 0 and 1.
+    - P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
+    - P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
+    - P-value=0.05is the marginal value indicating it is possible to go either way.
 
 17)  Do gradient descent methods always converge to same point?
 
