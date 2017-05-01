@@ -22,54 +22,54 @@ I'm just a porter, most of them are borrowing from others
 #### Q4 What is logistic regression? Or State an example when you have used logistic regression recently.
     Logistic Regression often referred as logit model is a technique to predict the binary outcome from a linear 
     combination of predictor variables. For example, if you want to predict whether a particular political leader 
-    will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor 
-    variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of 
-    time spent in campaigning, etc.
+    will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The 
+    predictor variables here would be the amount of money spent for election campaigning of a particular candidate, 
+    the amount of time spent in campaigning, etc.
 #### Q5 What are Recommender Systems?
-    A subclass of information filtering systems that are meant to predict the preferences or ratings that a user would
-    give to a product. Recommender systems are widely used in movies, news, research articles, products, social tags, 
-    music, etc.
+    A subclass of information filtering systems that are meant to predict the preferences or ratings that a user 
+    would give to a product. Recommender systems are widely used in movies, news, research articles, products, 
+    social tags, music, etc.
 #### Q6 Why data cleaning plays a vital role in analysis?
-    Cleaning data from multiple sources to transform it into a format that data analysts or data scientists can work with 
-    is a cumbersome process because - as the number of data sources increases, the time take to clean the data increases 
-    exponentially due to the number of sources and the volume of data generated in these sources. It might take up to 80% 
-    of the time for just cleaning data making it a critical part of analysis task.
-
+    Cleaning data from multiple sources to transform it into a format that data analysts or data scientists can work 
+    with is a cumbersome process because - as the number of data sources increases, the time take to clean the data 
+    increases exponentially due to the number of sources and the volume of data generated in these sources. It might 
+    take up to 80% of the time for just cleaning data making it a critical part of analysis task.
 #### Q7 Differentiate between univariate, bivariate and multivariate analysis.
-    These are descriptive statistical analysis techniques which can be differentiated based on the number of variables 
-    involved at a given point of time. For example, the pie charts of sales based on territory involve only one variable 
-    and can be referred to as univariate analysis.
+    These are descriptive statistical analysis techniques which can be differentiated based on the number of 
+    variables involved at a given point of time. For example, the pie charts of sales based on territory involve only 
+    one variable and can be referred to as univariate analysis.
 
     If the analysis attempts to understand the difference between 2 variables at time as in a scatterplot, then it is 
     referred to as bivariate analysis. For example, analysing the volume of sale and a spending can be considered as an 
     example of bivariate analysis.
 
-    Analysis that deals with the study of more than two variables to understand the effect of variables on the responses is 
-    referred to as multivariate analysis.
+    Analysis that deals with the study of more than two variables to understand the effect of variables on the responses 
+    is referred to as multivariate analysis.
 
 #### Q8 What do you understand by the term Normal Distribution?
-    Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. However, 
-    there are chances that data is distributed around a central value without any bias to the left or right and reaches normal
-    distribution in the form of a bell shaped curve. The random variables are distributed in the form of an symmetrical bell 
-    shaped curve.
+    Data is usually distributed in different ways with a bias to the left or to the right or it can all be jumbled up. 
+    However, there are chances that data is distributed around a central value without any bias to the left or right and 
+    reaches normal distribution in the form of a bell shaped curve. The random variables are distributed in the form of 
+    an symmetrical bell shaped curve.
 #### Q9 What is Linear Regression?
-    Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable
-    X. X is referred to as the predictor variable and Y as the criterion variable.
+    Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second 
+    variable X. X is referred to as the predictor variable and Y as the criterion variable.
 #### Q10 What is Interpolation and Extrapolation?
-    Estimating a value from 2 known values from a list of values is Interpolation. Extrapolation is approximating a value by 
-    extending a known set of values or facts.
+    Estimating a value from 2 known values from a list of values is Interpolation. Extrapolation is approximating a value 
+    by extending a known set of values or facts.
 #### Q11 What is power analysis?
     An experimental design technique for determining the effect of a given sample size.
 #### Q12 What is K-means? How can you select K for K-means?
 #### Q13 What is Collaborative filtering?
-    The process of filtering used by most of the recommender systems to find patterns or information by collaborating viewpoints,
-    various data sources and multiple agents.
+    The process of filtering used by most of the recommender systems to find patterns or information by collaborating 
+    viewpoints, various data sources and multiple agents.
 #### Q14 What is the difference between Cluster and Systematic Sampling?
-    Cluster sampling is a technique used when it becomes difficult to study the target population spread across a wide area and 
-    simple random sampling cannot be applied. Cluster Sample is a probability sample where each sampling unit is a collection, 
-    or cluster of elements. Systematic sampling is a statistical technique where elements are selected from an ordered sampling 
-    frame. In systematic sampling, the list is progressed in a circular manner so once you reach the end of the list,it is 
-    progressed from the top again. The best example for systematic sampling is equal probability method.
+    Cluster sampling is a technique used when it becomes difficult to study the target population spread across a wide 
+    area and simple random sampling cannot be applied. Cluster Sample is a probability sample where each sampling unit 
+    is a collection, or cluster of elements. Systematic sampling is a statistical technique where elements are selected 
+    from an ordered sampling frame. In systematic sampling, the list is progressed in a circular manner so once you reach 
+    the end of the list,it is progressed from the top again. The best example for systematic sampling is equal probability 
+    method.
 #### Q15 Are expected value and mean value different?
     They are not different but the terms are used in different contexts. Mean is generally referred when talking about a 
     probability distribution or sample population whereas expected value is generally referred in a random variable context.
