@@ -9,12 +9,14 @@ I'm just a porter, most of them are borrowing from others
 
 # Content
 #### Q1 How would you create a taxonomy to identify key customer trends in unstructured data?
-                The best way to approach this question is to mention that it is good to check with the business 
+        The best way to approach this question is to mention that it is good to check with the business 
         owner and understand their objectives before categorizing the data. Having done this, it is always 
         good to follow an iterative approach by pulling new data samples and improving   the model accordingly 
         by validating it for accuracy by soliciting feedback from the stakeholders of the business. This 
         helps ensure that your model is producing actionable results and improving over the time.
-                (https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2017/184 "悬停显示")
+#### Q2 Python or R – Which one would you prefer for text analytics?
+    The best possible answer for this would be Python because it has Pandas library that provides easy to use 
+    data structures and high performance data analysis tools.
 
 
 
