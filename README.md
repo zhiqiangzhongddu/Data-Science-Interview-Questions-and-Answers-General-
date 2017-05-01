@@ -51,6 +51,7 @@ I'm just a porter, most of them are borrowing from others
     up. However, there are chances that data is distributed around a central value without any bias to the left or
     right and reaches normal distribution in the form of a bell shaped curve. The random variables are distributed
     in the form of an symmetrical bell shaped curve.
+！[]（https://s3.amazonaws.com/files.dezyre.com/images/blog/100+Data+Science+Interview+Questions+and+Answers+(General)/Bell+Shaped+Curve+for+Normal+Distribution.jpg）
 #### Q9 What is Linear Regression?
     Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a 
     second variable X. X is referred to as the predictor variable and Y as the criterion variable.
