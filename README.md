@@ -274,14 +274,14 @@ I'm just a porter, most of them are borrowing from others
     are different from each other.
 
     For example, the following image shows three different groups.
+![](https://s3.amazonaws.com/files.dezyre.com/images/blog/100+Data+Science+Interview+Questions+and+Answers+(General)/Data+Science+Interview+Questions+K-Means+Clustering.jpg)
 
     K-Mean Clustering Machine Learning Algorithm
 
     Within Sum of squares is generally used to explain the homogeneity within a cluster. If you plot WSS 
     for a range of number of clusters, you will get the plot shown below. The Graph is generally known as 
     Elbow Curve.
-    
-    Data Science Interview Questions K Mean Clustering
+![](https://s3.amazonaws.com/files.dezyre.com/images/blog/100+Data+Science+Interview+Questions+and+Answers+(General)/Data+Science+Interview+Questions+K-Means.png)
 
     Red circled point in above graph i.e. Number of Cluster =6 is the point after which you don’t see any 
     decrement in WSS. This point is known as bending point and taken as K in K – Means.
@@ -312,6 +312,9 @@ In addition to above mentioned quantitative metrics you should also check for-
     Regularizations in statistics or in the field of machine learning is used to include some extra 
     information in order to solve a problem in a better way. L1 & L2 regularizations are generally used 
     to add constraints to optimization problems.
+
+![](https://s3.amazonaws.com/files.dezyre.com/images/blog/100+Data+Science+Interview+Questions+and+Answers+(General)/L1+L2+Regularizations.png)
+
     In the example shown above H0 is a hypothesis. If you observe, in L1 there is a high likelihood to 
     hit the corners as solutions while in L2, it doesn’t. So in L1 variables are penalized more as compared
     to L2 which results into sparsity.
@@ -324,6 +327,9 @@ In addition to above mentioned quantitative metrics you should also check for-
     Before we start, let us understand what are false positives and what are false negatives.
     False Positives are the cases where you wrongly classified a non-event as an event a.k.a Type I error.
     And, False Negatives are the cases where you wrongly classify events as non-events, a.k.a Type II error.
+    
+![](https://s3.amazonaws.com/files.dezyre.com/images/blog/100+Data+Science+Interview+Questions+and+Answers+(General)/False+Positive+False+Negative.png)
+    
     In medical field, assume you have to give chemo therapy to patients. Your lab tests patients for certain 
     vital information and based on those results they decide to give radiation therapy to a patient.
     Assume a patient comes to that hospital and he is tested positive for cancer (But he doesn’t have cancer) 
