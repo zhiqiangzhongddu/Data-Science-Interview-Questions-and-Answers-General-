@@ -86,9 +86,9 @@ I'm just a porter, most of them are borrowing from others
 #### Q16 What does P-value signify about the statistical data?
     P-value is used to determine the significance of results after a hypothesis test in statistics. P-value 
     helps the readers to draw conclusions and is always between 0 and 1.
-    - P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
-    - P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
-    - P-value=0.05is the marginal value indicating it is possible to go either way.
+- P- Value > 0.05 denotes weak evidence against the null hypothesis which means the null hypothesis cannot be rejected.
+- P-value <= 0.05 denotes strong evidence against the null hypothesis which means the null hypothesis can be rejected.
+- P-value=0.05is the marginal value indicating it is possible to go either way.
 
 17)  Do gradient descent methods always converge to same point?
 
