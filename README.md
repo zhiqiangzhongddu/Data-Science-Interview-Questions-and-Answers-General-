@@ -9,10 +9,11 @@ I'm just a porter, most of them are borrowing from others
 
 # Content
 #### Q1 How would you create a taxonomy to identify key customer trends in unstructured data?
-        The best way to approach this question is to mention that it is good to check with the business owner and understand their
-        objectives before categorizing the data. Having done this, it is always good to follow an iterative approach by pulling new data
-        samples and improving   the model accordingly by validating it for accuracy by soliciting feedback from the stakeholders of the
-        business. This helps ensure that your model is producing actionable results and improving over the time.
+        The best way to approach this question is to mention that it is good to check with the business 
+        owner and understand their objectives before categorizing the data. Having done this, it is always 
+        good to follow an iterative approach by pulling new data samples and improving   the model accordingly 
+        by validating it for accuracy by soliciting feedback from the stakeholders of the business. This 
+        helps ensure that your model is producing actionable results and improving over the time.
 
 
 
