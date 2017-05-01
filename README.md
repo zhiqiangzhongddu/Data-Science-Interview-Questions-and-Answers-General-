@@ -1,8 +1,10 @@
 Data-Science-Interview-Questions-and-Answers-General
 ====================================================
-# Data-Science-Interview-Questions-and-Answers-General
+I hope this article could help beginners to better understanding of Data Science, and have a better performance in your first interviews.  
+I will do long update and please feel free to contact me if you have any questions.  
+
 ## Data Science Questions and Answers (General) for beginner
-### Zhiqiang ZHONG 
+### Editor : Zhiqiang ZHONG 
 
 
 
