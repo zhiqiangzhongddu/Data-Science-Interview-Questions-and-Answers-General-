@@ -87,6 +87,19 @@ I'm just a porter, most of them are borrowing from others
     
 #### Q12 What is K-means? How can you select K for K-means?
 
+    K-means is a clestering algorithm, handle with un-supervised problem. k-means clustering aims to partition
+    n observations into k clusters in which each observation belongs to the cluster with the nearest mean, 
+    serving as a prototype of the cluster.
+    
+    You can choose the number of cluster by visually but there is lots of ambiguity, or computethe sum of SSE(the
+    sum of squared error) for some values of K. To find one good K.
+    
+![](https://qph.ec.quoracdn.net/main-qimg-678795190794dd4c071366c06bf32115.webp)
+
+    In this case, k=6 is the value.
+    
+[More reading](https://www.quora.com/How-can-we-choose-a-good-K-for-K-means-clustering)
+    
 #### Q13 What is Collaborative filtering?
 
     The process of filtering used by most of the recommender systems to find patterns or information by collaborating 
@@ -129,7 +142,7 @@ I'm just a porter, most of them are borrowing from others
     No, they do not because in some cases it reaches a local minima or a local optima point. You don’t reach 
     the global optima point. It depends on the data and starting conditions
     
-#### Q18 What are categorical variables?
+~~#### Q18 What are categorical variables?~~
 
 #### Q19 A test has a true positive rate of 100% and false positive rate of 5%. There is a population with a 1/1000 rate of having the condition the test identifies. Considering a positive test, what is the probability of having that condition?
 
@@ -150,6 +163,12 @@ I'm just a porter, most of them are borrowing from others
 
 #### Q20 How you can make data normal using Box-Cox transformation?
 
+    The calculation fomula of Box-Cox: 
+![](http://images.cnblogs.com/cnblogs_com/zgw21cn/WindowsLiveWriter/BoxCox_119E9/clip_image002_thumb.gif)
+
+    It change the calculation between log, sqrt and reciprocal operation by changing lambda. Find a suitable 
+    lambda based on specific data set.
+    
 #### Q21 What is the difference between Supervised Learning an Unsupervised Learning?
 
     If an algorithm learns something from the training data so that the knowledge can be applied to the test data,
@@ -159,7 +178,12 @@ I'm just a porter, most of them are borrowing from others
     
 #### Q22 Explain the use of Combinatorics in data science.
 
+    Combinatorics used a lot in data science, from feature engineer to algorithms(ensemble algorithms).Creat new features
+    by merge original feature and merge several networks in one to creat news, like bagging, boosting and stacking. 
+
 #### Q23 Why is vectorization considered a powerful method for optimizing numerical code?
+
+    Vectorization can change original data to be structed.
 
 #### Q24 What is the goal of A/B Testing?
 
@@ -174,6 +198,9 @@ I'm just a porter, most of them are borrowing from others
     linear transformation acts by flipping, compressing or stretching. Eigenvalue can be referred to as the strength
     of the transformation in the direction of eigenvector or the factor by which the compression occurs.
 #### Q26 What is Gradient Descent?
+
+    A method to find the local minimum of a function. From a point along the direction of gradient to iterational 
+    search by a certain step length, until gradient equals zero. 
 
 #### Q27 How can outlier values be treated?
 
@@ -221,7 +248,7 @@ I'm just a porter, most of them are borrowing from others
 - If you have a distribution of data coming, for normal distribution give the mean value.
 - Should we even treat missing values is another important point to consider? If 80% of the values for a variable are missing then you can answer that you would be dropping the variable instead of treating the missing values.
 
-#### Q32 Explain about the box cox transformation in regression models.
+~~#### Q32 Explain about the box cox transformation in regression models.~~
 
 #### Q33 Can you use machine learning for time series analysis?
 
