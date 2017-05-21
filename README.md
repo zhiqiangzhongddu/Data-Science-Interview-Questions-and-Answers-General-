@@ -343,6 +343,12 @@ I'm just a porter, most of them are borrowing from others
 #### Q35 What is the difference between Bayesian Inference and Maximum Likelihood Estimation (MLE)?
 
 #### Q36 What is Regularization and what kind of problems does regularization solve?
+    A central problem in machine learning is how to make an algorithm that will perform weel not just on
+    the training data, but also on new inputs. Many strategies used in machine learning are explicitly 
+    designed to reduce the test error, possibly at the expense of increased training error. These 
+    strategies are known collectively as regularization.
+    Briefly, regularization is any modification we make to a learning algorithm that is intended to 
+    reduce its generalization error but not its training error.
 
 #### Q37 What is multicollinearity and how you can overcome it?
 
@@ -974,3 +980,5 @@ The right answers will serve as a testament for your commitment to being a lifel
 [Reference from dezyre](https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2017/184 "悬停显示")
 
 [Rererence from Springbord](https://www.springboard.com/blog/machine-learning-interview-questions/?from=message&isappinstalled=0 "悬停显示")
+
+Reference: Deep Learning (Ian Goodfellow, Yoshua Bengio and Aaron Courville) -- MIT
