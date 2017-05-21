@@ -351,6 +351,12 @@ I'm just a porter, most of them are borrowing from others
     reduce its generalization error but not its training error.
 
 #### Q37 What is multicollinearity and how you can overcome it?
+    In statistics, multicollinearity (also collinearity) is a phenomenon in which two or more predictor
+    variables in a multiple regression model are highly correlated, meaning that one can be linearly 
+    predicted from the others with a substantial degree of accuracy. 
+    Solutions:
+        Remove variables that lead to multicollinearity.
+[More reading: ](https://en.wikipedia.org/wiki/Multicollinearity)
 
 #### Q38 What is the curse of dimensionality?
 
