@@ -356,13 +356,20 @@ I'm just a porter, most of them are borrowing from others
     predicted from the others with a substantial degree of accuracy. 
     Solutions:
         Remove variables that lead to multicollinearity.
-[More reading: ](https://en.wikipedia.org/wiki/Multicollinearity)
+        Obtain more data.
+        Ridge regression or PCA (principal component regression) or partial least squares regression
+[More reading in WIKI](https://en.wikipedia.org/wiki/Multicollinearity)
 
 #### Q38 What is the curse of dimensionality?
+    It refers to various phenomena that arise when analyzing and organizing data in high-dimensional 
+    spaces (often with hundreds or thousands of dimensions) that do not occur in low-dimensional
+    settings.
 
 #### Q39 How do you decide whether your linear regression model fits the data?
+    Many solutions, such as use a loss function and check it situation, or use test data to verify 
+    our model
 
-#### Q40 What is the difference between squared error and absolute error?
+~~#### Q40 What is the difference between squared error and absolute error?~~
 
 #### Q41 What is Machine Learning?
 
@@ -373,12 +380,18 @@ I'm just a porter, most of them are borrowing from others
     learns about the values of m and c from the data.
     
 #### Q42 How are confidence intervals constructed and how will you interpret them?
+    Confidence interval is: under a certain confidence, the length of the area where the overall parameter
+    is located. 
 
 #### Q43 How will you explain logistic regression to an economist, physican scientist and biologist?
 
 #### Q44 How can you overcome Overfitting?
+    Regularization: add a regularizer or a penalty term.
+    Cross Validation: Simple cross validation; S-folder cross validation; Leave-one-out cross validation.  
 
 #### Q45 Differentiate between wide and tall data formats?
+    Wide: data formats have lots of columns.
+    Tall: data formats have lots of examples.
 
 #### Q46 Is Naïve Bayes bad? If yes, under what aspects.
 
@@ -409,8 +422,13 @@ I'm just a porter, most of them are borrowing from others
     This is the widely used approach but few data scientists also use Hierarchical clustering first to 
     create dendograms and identify the distinct groups from there.
 #### Q49 Is it better to have too many false negatives or too many false positives?
+    It depends on the situation, for example, if we use the model for cancer detection, FN(False Negative)
+    is more serious than FP(False Positive) because a FN could be verified in futher check, but
+    FP maybe will let a patient be missed and delay the best treatment period.
 
 #### Q50 Is it possible to perform logistic regression with Microsoft Excel?
+    Yep, i must say Microsoft Excel is more and more powerful, and many data science could be 
+    realized in simple way.
 
 #### Q51 What do you understand by Fuzzy merging ? Which language will you use to handle it?
 
@@ -436,6 +454,8 @@ In addition to above mentioned quantitative metrics you should also check for-
 #### Q55 What do you understand by Recall and Precision?
 
 #### Q56 How will you find the right K for K-means?
+    No any other way just do experiment on instance dataset, see the result of different K, find
+    the better one. 
 
 #### Q57 Why L1 regularizations causes parameter sparsity whereas L2 regularization does not?
 
@@ -454,6 +474,7 @@ In addition to above mentioned quantitative metrics you should also check for-
 #### Q58 How can you deal with different types of seasonality in time series modelling?
 
 #### Q59 In experimental design, is it necessary to do randomization? If yes, why?
+    Normally yes, but never do it for time series dataset.
 
 #### Q60 What do you understand by conjugate-prior with respect to Naïve Bayes?
 
@@ -511,6 +532,7 @@ In addition to above mentioned quantitative metrics you should also check for-
 -   Validation set is to tune the parameters.
 
 #### Q65 What makes a dataset gold standard?
+    
 
 #### Q66 What do you understand by statistical power of sensitivity and how do you calculate it?
 
@@ -567,11 +589,11 @@ In addition to above mentioned quantitative metrics you should also check for-
 
 #### Q71 What are the advantages and disadvantages of using regularization methods like Ridge Regression?
 
-#### Q72 What do you understand by long and wide data formats?
+~~#### Q72 What do you understand by long and wide data formats?~~
 
 #### Q73 What do you understand by outliers and inliers? What would you do if you find them in your dataset?
 
-#### Q74 Write a program in Python which takes input as the diameter of a coin and weight of the coin and produces output as the money value of the coin.
+~~#### Q74 Write a program in Python which takes input as the diameter of a coin and weight of the coin and produces output as the money value of the coin.
 
 #### Q75 What are the basic assumptions to be made for linear regression?
 
