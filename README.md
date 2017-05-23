@@ -569,23 +569,7 @@ In addition to above mentioned quantitative metrics you should also check for-
 
     Missing value treatment is one of the primary tasks which a data scientist is supposed to do
     before starting data analysis. There are multiple methods for missing value treatment. If not
-    done properly, it could potentially result into selection bias. Let see few missing value treatment
-    examples and their impact on selection-
-   
-    Complete Case Treatment: Complete case treatment is when you remove entire row in data even if one 
-    value is missing. You could achieve a selection bias if your values are not missing at random and 
-    they have some pattern. Assume you are conducting a survey and few people didn’t specify their gender.
-    Would you remove all those people? Can’t it tell a different story?
-
-    Available case analysis: Let say you are trying to calculate correlation matrix for data so you might 
-    remove the missing values from variables which are needed for that particular correlation coefficient.
-    In this case your values will not be fully correct as they are coming from population sets.
-
-    Mean Substitution: In this method missing values are replaced with mean of other available values.
-    This might make your distribution biased e.g., standard deviation, correlation and regression are mostly 
-    dependent on the mean value of variables.
-
-    Hence, various data management procedures might include selection bias in your data if not chosen correctly.
+    done properly, it could potentially result into selection bias. 
 
 #### Q71 What are the advantages and disadvantages of using regularization methods like Ridge Regression?
 
@@ -876,14 +860,7 @@ These machine learning interview questions test your knowledge of programming pr
 implement machine learning principles in practice. Machine learning interview questions tend to be technical
 questions that test your logic and programming skills: this section focuses more on the latter.
 
-#### Q104 How do you handle missing or corrupted data in a dataset?
-
-    You could find missing/corrupted data in a dataset and either drop those rows or columns, or decide
-    to replace them with another value.
-
-    In Pandas, there are two very useful methods: isnull() and dropna() that will help you find columns 
-    of data with missing or corrupted data and drop those values. If you want to fill the invalid values
-    with a placeholder value (for example, 0), you could use the fillna() method.
+~~#### Q104 How do you handle missing or corrupted data in a dataset?~~
 
 #### Q105 Do you have experience with Spark or big data tools for machine learning?
 
