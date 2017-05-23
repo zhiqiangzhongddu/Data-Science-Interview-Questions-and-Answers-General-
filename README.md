@@ -237,14 +237,14 @@ I'm just a porter, most of them are borrowing from others
     
 #### Q31 During analysis, how do you treat missing values?
 
-      Minsing values has many reasons, like:
+Minsing values has many reasons, like:
 - Information not advisable for this time
 - Information was missed by collect
 - Some attributes of some items are not avaliable
 - Some information was thinked not important
 - It's too expensive to collect all these data
     
-      Types of Missing values:
+Types of Missing values:
 - Missing completely at Random (MCAR): no relationship with missing values and other variables, like 
     family adress
 - Missing at random (MAR): not completely random, missing denpends on other variables, like finance situation
@@ -252,7 +252,7 @@ I'm just a porter, most of them are borrowing from others
 - Missing not at random (MNAR): there is relationship with the value of variable self, like high income families 
     don't will to open its income situation
       
-      Methods treatment (you need to know clearly about your missing values firstly)
+Methods treatment (you need to know clearly about your missing values firstly)
 - Delect tuple
     Delect tuples have any missing values
     - List wise delection
