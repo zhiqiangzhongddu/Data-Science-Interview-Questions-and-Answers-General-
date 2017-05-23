@@ -237,16 +237,21 @@ I'm just a porter, most of them are borrowing from others
     
 #### Q31 During analysis, how do you treat missing values?
 
-    The extent of the missing values is identified after identifying the variables with missing values. If 
-    any patterns are identified the analyst has to concentrate on them as it could lead to interesting and 
-    meaningful business insights. If there are no patterns identified, then the missing values can be 
-    substituted with mean or median values (imputation) or they can simply be ignored.There are various
-    factors to be considered when answering this question-
-
-- Understand the problem statement, understand the data and then give the answer.Assigning a default value which can be mean, minimum or maximum value. Getting into the data is important.
-- If it is a categorical variable, the default value is assigned. The missing value is assigned a default value.
-- If you have a distribution of data coming, for normal distribution give the mean value.
-- Should we even treat missing values is another important point to consider? If 80% of the values for a variable are missing then you can answer that you would be dropping the variable instead of treating the missing values.
+    Minsing values has many reasons, like:
+- Information not advisable for this time
+- Information was missed by collect
+- Some attributes of some items are not avaliable
+- Some information was thinked not important
+- It's too expensive to collect all these data
+    
+    Types of Missing values:
+- Missing completely at Random (MCAR): no relationship with missing values and other variables, like 
+    family adress
+- Missing at random (MAR): not completely random, missing denpends on other variables, like finance situation
+    data missing has relationship with the company size
+- Missing not at random (MNAR): there is relationship with the value of variable self, like high income families 
+    don't will to open its income situation
+    
 
 ~~#### Q32 Explain about the box cox transformation in regression models.~~
 
