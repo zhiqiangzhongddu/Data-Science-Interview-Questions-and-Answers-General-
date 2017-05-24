@@ -269,7 +269,7 @@ Methods treatment (you need to know clearly about your missing values firstly)
     - Regression
     - Expectation maximization, EM
     - Multiple Imputation
-
+[More Reading (In Chinese)](http://blog.csdn.net/lujiandong1/article/details/52654703)
 ~~#### Q32 Explain about the box cox transformation in regression models.~~
 
 #### Q33 Can you use machine learning for time series analysis?
