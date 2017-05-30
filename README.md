@@ -591,11 +591,7 @@ In addition to above mentioned quantitative metrics you should also check for-
 
 #### Q69 What do you understand by feature vectors?
 
-#### Q70 How do data management procedures like missing data handling make selection bias worse?
-
-    Missing value treatment is one of the primary tasks which a data scientist is supposed to do
-    before starting data analysis. There are multiple methods for missing value treatment. If not
-    done properly, it could potentially result into selection bias. 
+~~#### Q70 How do data management procedures like missing data handling make selection bias worse?~~
 
 #### Q71 What are the advantages and disadvantages of using regularization methods like Ridge Regression?
 
