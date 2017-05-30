@@ -1,4 +1,4 @@
-Data-Science-Interview-Questions-and-Answers-General(Updating)
+Data-Science-Interview-Questions-and-Answers-General (Updating)
 ====================================================
 
 I hope this article could help beginners to better understanding of Data Science, and have a better performance in your first interviews.  
